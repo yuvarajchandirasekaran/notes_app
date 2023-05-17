@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/52d2b40c3f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <div>
+            <h1 style="text-align: center; color: #002e00;">Notes App</h1>
+            <div class="firstrow">
+                <div class="card">
+                    <i class="fa-solid fa-cloud-arrow-up" style="color: #008000; font-size: 125px;"></i>
+                    <p class="text">Add Notes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="taskContainer">
+            <form class="formsection">
+                <p style="color: #003600;">Form Section</p>
+                <hr class="empty">
+                <p class="closebtn">X</p>
+                <input type="text" placeholder="Tittle" class="title">
+                <textarea placeholder="Description" class="body"></textarea>
+                <hr class="empty">
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+    </section>
+    <section class="notifydiv">
+        <img class="addedimg" src="check-solid.svg">
+        <p class="notification">Item Successfully Added</p>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
